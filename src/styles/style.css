@@ -1,0 +1,68 @@
+.header-bar {
+  background: #eea36e
+}
+.calculator-box > a
+{
+  background: rgba(0,0,0,0.1);
+      width: 60px;
+      height: 60px;
+      border-radius: 0px;
+      line-height: 64px;
+      text-align: center;
+      padding: 0px;
+      border-right: 1px solid #ccc;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ccc;
+}
+.calculator-box {
+  width: 240px;
+margin: auto;
+height: 280px;
+position: absolute;
+top: 64px;
+right: 0;
+left: 0;
+bottom: 0px;
+border-left: 1px solid #ccc;
+box-sizing: content-box;
+border-top: 1px solid #ccc;
+}
+.value-box
+{
+  height: 40px;
+    border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+}
+.calculator-box > a:last-child {
+  width: 120px
+}
+.display-box
+{
+  width: 180px;
+height: 100%;
+border-right: 1px solid #ccc;
+box-sizing: border-box;
+line-height: 40px;
+text-align: right;
+}
+.backSpace {
+  width: 59px;
+    height: 100%;
+    text-align: center;
+    line-height: 39px;
+    font-weight: bold;
+    font-size: 22px;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+}
+.display-box > span {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.backSpace:hover {
+  cursor: pointer;
+}
+.value-box > div {
+  float: left;
+}
