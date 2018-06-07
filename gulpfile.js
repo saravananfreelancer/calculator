@@ -47,7 +47,7 @@ gulp.task("webserver", function() {
     return gulp.src(["build"])
         .pipe(webserver({
             host: "localhost",
-            port: 3000,
+            port: process.env.PORT || 3000,
             livereload: true,
             open: true,
             fallback: "index.html"
